@@ -13,7 +13,7 @@ import { EmployeeComponent } from './views/master-file/employee/employee.compone
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'master-file/employee',
     pathMatch: 'full',
   },
   {
