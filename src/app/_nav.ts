@@ -36,7 +36,7 @@ export const navItems: NavData[] = [
   },
   {
     name: 'Employee Master Data',
-    url: '/theme/colors',
+    url: '/master-file/employee',
     icon: 'icon-drop'
   },
   {
