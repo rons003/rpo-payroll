@@ -31,12 +31,36 @@ export interface NavData {
 
 export const navItems: NavData[] = [
   {
-    name: 'Dashboard',
-    url: '/dashboard',
-    icon: 'icon-speedometer',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
-  }
+    title: true,
+    name: 'Master File'
+  },
+  {
+    name: 'Employee Master Data',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
+  {
+    name: '201 FILE',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
+  {
+    name: 'Loan File',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
+  {
+    title: true,
+    name: 'Payroll'
+  },
+  {
+    name: 'Payroll Processing',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
+  {
+    name: 'Manual Payroll',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
 ];
