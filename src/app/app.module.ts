@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
@@ -66,10 +65,7 @@ import { EmployeeComponent } from './views/master-file/employee/employee.compone
     RegisterComponent,
     EmployeeComponent
   ],
-  providers: [{
-    provide: LocationStrategy,
-    useClass: HashLocationStrategy
-  }],
+  providers: [],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
