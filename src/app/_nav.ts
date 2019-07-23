@@ -37,17 +37,17 @@ export const navItems: NavData[] = [
   {
     name: 'Employee Master Data',
     url: '/master-file/employee',
-    icon: 'icon-drop'
+    icon: 'cui-user icons'
   },
   {
     name: '201 FILE',
     url: '/theme/colors',
-    icon: 'icon-drop'
+    icon: 'fa fa-file-text-o'
   },
   {
     name: 'Loan File',
     url: '/theme/colors',
-    icon: 'icon-drop'
+    icon: 'fa fa-file-text-o'
   },
   {
     title: true,
